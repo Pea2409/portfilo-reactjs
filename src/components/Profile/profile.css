@@ -1,0 +1,47 @@
+#profile {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.profileTitle {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.profileDesc {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.profileImgList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 65rem;
+  flex-wrap: wrap;
+}
+
+.profileImgItem {
+  object-fit: cover;
+  height: 22rem;
+  margin: 0.5rem;
+  width: 20vw;
+}
+
+.profileBtn {
+  margin: 3rem 0;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  background: white;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
